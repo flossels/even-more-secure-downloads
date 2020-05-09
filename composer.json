@@ -1,0 +1,39 @@
+{
+  "name": "flossels/even-more-secure-downloads",
+  "description": "\"Secure Download\": Apply TYPO3 access rights to ALL file assets (PDFs, TGZs or JPGs etc. - configurable) - protect them from direct access.",
+  "keywords": [
+    "TYPO3",
+    "Downloads",
+    "Secure"
+  ],
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.flossels.de",
+  "support": {
+    "email": "support@flossels.de",
+    "issues": "https://github.com/flossels/even-more-secure-downloads/issues",
+    "source": "https://github.com/flossels/even-more-secure-downloads/"
+  },
+  "authors": [
+    {
+      "name": "Florian Wessels",
+      "email": "mail@flossels.de",
+      "role": "Developer",
+      "homepage": "https://www.flossels.de"
+    }
+  ],
+  "require": {
+    "lcobucci/jwt": "^3.3",
+    "leuchtfeuer/secure-downloads": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flossels\\EvenMoreSecureDownloads\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "even_more_secure_downloads"
+    }
+  }
+}
