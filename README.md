@@ -48,7 +48,7 @@ public method `registerCheck` of the `Leuchtfeuer\SecureDownloads\Registry\Check
 This repository is available via composer. You can execute following lines to add this repository to your TYPO3 instance:
 
 ```
-composer config repositories.repo-name vcs https://github.com/flossels/even-more-secure-downloads.git
+composer config repositories.flossels-sdl vcs https://github.com/flossels/even-more-secure-downloads.git
 composer require flossels/even-more-secure-downloads:dev-master
 ```
 
