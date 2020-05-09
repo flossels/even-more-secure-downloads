@@ -43,6 +43,18 @@ public method `registerCheck` of the `Leuchtfeuer\SecureDownloads\Registry\Check
 );
 ```
 
+## Wanna Try the Code?
+
+This repository is available via composer. You can execute following lines to add this repository to your TYPO3 instance:
+
+```
+composer config repositories.repo-name vcs https://github.com/flossels/even-more-secure-downloads.git
+composer require flossels/even-more-secure-downloads:dev-master
+```
+
+Alternatively you can simply download this repository as a ZIP file, put it in the `typo3conf/ext` folder of your TYPO3 and 
+unzip it. Please note that you may need to add autoload information.
+
 ## Disclaimer
 
 Easy, isn't it?
