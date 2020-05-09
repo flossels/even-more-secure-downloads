@@ -52,8 +52,8 @@ composer config repositories.flossels-sdl vcs https://github.com/flossels/even-m
 composer require flossels/even-more-secure-downloads:dev-master
 ```
 
-Alternatively you can simply download this repository as a ZIP file, put it in the `typo3conf/ext` folder of your TYPO3 and 
-unzip it. Please note that you may need to add autoload information.
+Alternatively you can simply download this repository as a ZIP file, put it in the `typo3conf/ext` folder of your TYPO3 instance 
+and unzip it. Please note that you may need to add autoload information.
 
 ## Disclaimer
 
